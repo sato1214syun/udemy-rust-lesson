@@ -7,7 +7,10 @@
 // mod enums;
 // mod traits;
 // mod error_handling;
-mod unit_test;
+//extern crate lib_demo;
+
+mod debug;
+
 fn main() {
     // println!("Hello, world!");
     // vars::run();
@@ -22,4 +25,6 @@ fn main() {
     // unit_test::run();
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
+    // lib_demo::print_random_number();
+    debug::run();
 }
